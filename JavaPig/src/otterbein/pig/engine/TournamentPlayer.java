@@ -1,7 +1,9 @@
 package otterbein.pig.engine;
 
 
-
+/**
+* Wrapper to hold a play and thier stats for a tournament.  Used in TournamentManager.
+*/
 class TournamentPlayer {
 
   private int wins = 0;             //games won

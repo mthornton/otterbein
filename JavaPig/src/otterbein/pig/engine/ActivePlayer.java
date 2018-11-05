@@ -2,6 +2,11 @@ package otterbein.pig.engine;
 
 
 
+/**
+* Wrapper to hold a player and the players stats for one game.  Use in GameManager.
+* Kept seperate from the PlayerInterface becaseu we don't want the player implementations
+* to have access to these vars (people would cheat!).
+*/
 class ActivePlayer {
 
   private PlayerInterface player;

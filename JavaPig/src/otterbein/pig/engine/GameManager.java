@@ -5,7 +5,7 @@ import java.util.*;
 
 
 /**
-* Facilitates a game of pig between two players.
+* Facilitates one game of pig between two players.
 */
 public class GameManager {
 
