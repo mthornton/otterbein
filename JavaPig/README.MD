@@ -36,4 +36,4 @@ To create your own AI player, create a java file implementing PlayerInterface.  
 
 # Design
 ## Auto generated UML diagram
-![alt text][UML]
+![alt text](https://github.com/mthornton/otterbein/blob/master/JavaPig/UML.png)
