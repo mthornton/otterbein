@@ -34,6 +34,8 @@ java -cp . otterbein/pig/engine/Pig 10000
 # Adding your own AI
 To create your own AI player, create a java file implementing PlayerInterface.  Each time your player needs to decide if they should play or not, the willPlay method is called.  Your program's job is to return true if you want to roll, false to hold.
 
+To add your player to the tournament just drop the .java file into the player folder or drop in the compiled class file.  Either way, they system will automatically pick the player up and enter them inthe the tournament.
+
 # Design
 ## Auto generated UML diagram
 ![alt text](https://github.com/mthornton/otterbein/blob/master/JavaPig/UML.png)
